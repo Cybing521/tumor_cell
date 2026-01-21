@@ -11,7 +11,25 @@
 
 二、数据来源
 --------------------------------------------------------------------------------
-数据集: GSE111065
+
+【数据集1】GSE51827 - Aceto et al. 2014
+文章:   Aceto N, et al. (2014)
+        "Circulating Tumor Cell Clusters Are Oligoclonal Precursors of 
+        Breast Cancer Metastasis"
+        Cell, 158(5): 1110-1122
+        DOI: 10.1016/j.cell.2014.07.013
+        PMID: 25171411
+
+样本信息:
+  - CTC Clusters (CTC簇): 14个样本
+  - Single CTCs (单个CTC): 15个样本
+  - 数据类型: RNA测序
+  - 物种: Homo sapiens / Mus musculus
+  - 样本来源: 乳腺癌患者和小鼠模型外周血
+
+--------------------------------------------------------------------------------
+
+【数据集2】GSE111065 - Gkountela et al. 2019
 文章:   Gkountela S, et al. (2019) 
         "Circulating Tumor Cell Clustering Shapes DNA Methylation to Enable 
         Metastasis Seeding"
@@ -24,6 +42,10 @@
   - 数据类型: 单细胞RNA测序 (scRNA-seq)
   - 物种: Homo sapiens (人类)
   - 样本来源: 乳腺癌患者外周血
+
+--------------------------------------------------------------------------------
+注: 本次热图分析主要使用GSE111065数据集，因其样本量更大且为单细胞分辨率数据。
+    GSE51827数据集的分析结果另存于 /analysis/ 文件夹中。
 
 
 三、分析方法

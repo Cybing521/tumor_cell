@@ -10,8 +10,18 @@
 
 ## 数据来源
 
+### GSE51827 (Aceto et al., 2014, Cell)
+- **论文**: "Circulating Tumor Cell Clusters Are Oligoclonal Precursors of Breast Cancer Metastasis"
+- **DOI**: 10.1016/j.cell.2014.07.013
+- **PMID**: 25171411
+- **样本**: 乳腺癌患者和小鼠模型外周血
+- **CTC Clusters**: 14个样本
+- **Single CTCs**: 15个样本
+- **数据类型**: RNA测序
+
 ### GSE111065 (Gkountela et al., 2019, Cell)
 - **论文**: "Circulating Tumor Cell Clustering Shapes DNA Methylation to Enable Metastasis Seeding"
+- **DOI**: 10.1016/j.cell.2018.11.046
 - **样本**: 乳腺癌患者外周血
 - **CTC Clusters**: 45个样本
 - **Single CTCs**: 56个样本
